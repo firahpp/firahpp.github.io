@@ -5,6 +5,7 @@
     "home_page_url": "https://firahpp.github.io",
     "feed_url": "https://firahpp.github.io/feed.json",
     "user_comment": "",
+    "icon": "https://firahpp.github.io/media/website/IMG-20180130-WA0033_square.jpg",
     "author": {
         "name": "Firah Putri"
     },
@@ -13,16 +14,16 @@
             "id": "https://firahpp.github.io/hello-world.html",
             "url": "https://firahpp.github.io/hello-world.html",
             "title": "Hello World",
-            "summary": "Haii ini adalah post percobaan ",
-            "content_html": "<p>Haii ini adalah post percobaan</p>\n<p><img class=\"post__image\" src=\"https://firahpp.github.io/media/posts/1/pos.jpg\" alt=\"\" width=\"2480\" height=\"1748\"></p>",
-            "image": "https://firahpp.github.io/media/posts/1/brilliant-life.JPG",
+            "summary": "Haii ini adalah post percobaan untuk melengkapi tugas struktur data",
+            "content_html": "<p>Haii ini adalah post percobaan untuk melengkapi tugas struktur data</p>",
+            "image": "https://firahpp.github.io/media/posts/1/IMG_20180730_230333.jpg",
             "author": {
                 "name": "Firah Putri"
             },
             "tags": [
             ],
             "date_published": "2019-06-06T21:44:23+07:00",
-            "date_modified": "2019-06-06T21:44:23+07:00"
+            "date_modified": "2019-06-06T22:30:44+07:00"
         }
     ]
 }

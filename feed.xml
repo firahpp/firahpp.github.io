@@ -3,7 +3,7 @@
     <title>Firah blog</title>
     <link href="https://firahpp.github.io/feed.xml" rel="self" />
     <link href="https://firahpp.github.io" />
-    <updated>2019-06-06T22:06:14+07:00</updated>
+    <updated>2019-06-06T22:30:56+07:00</updated>
     <author>
         <name>Firah Putri</name>
     </author>
@@ -17,18 +17,17 @@
         <link href="https://firahpp.github.io/hello-world.html"/>
         <id>https://firahpp.github.io/hello-world.html</id>
 
-        <updated>2019-06-06T21:44:23+07:00</updated>
+        <updated>2019-06-06T22:30:44+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://firahpp.github.io/media/posts/1/brilliant-life.JPG" alt="" />
-                    Haii ini adalah post percobaan 
+                        <img src="https://firahpp.github.io/media/posts/1/IMG_20180730_230333.jpg" alt="" />
+                    Haii ini adalah post percobaan untuk melengkapi tugas struktur data
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://firahpp.github.io/media/posts/1/brilliant-life.JPG" alt="" />
-                <p>Haii ini adalah post percobaan</p>
-<p><img class="post__image" src="https://firahpp.github.io/media/posts/1/pos.jpg" alt="" width="2480" height="1748"></p>
+                    <img src="https://firahpp.github.io/media/posts/1/IMG_20180730_230333.jpg" alt="" />
+                <p>Haii ini adalah post percobaan untuk melengkapi tugas struktur data</p>
             ]]>
         </content>
     </entry>
