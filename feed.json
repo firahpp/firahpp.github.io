@@ -2,21 +2,21 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "Firah PP",
     "description": "",
-    "home_page_url": "https://firahpp.github.io",
-    "feed_url": "https://firahpp.github.io/feed.json",
+    "home_page_url": "https://firah.id",
+    "feed_url": "https://firah.id/feed.json",
     "user_comment": "",
-    "icon": "https://firahpp.github.io/media/website/IMG-20180130-WA0033_square.jpg",
+    "icon": "https://firah.id/media/website/IMG-20180130-WA0033_square.jpg",
     "author": {
         "name": "Firah Putri"
     },
     "items": [
         {
-            "id": "https://firahpp.github.io/hello-world.html",
-            "url": "https://firahpp.github.io/hello-world.html",
+            "id": "https://firah.id/hello-world.html",
+            "url": "https://firah.id/hello-world.html",
             "title": "Hello World",
             "summary": "Haii ini adalah post percobaan untuk melengkapi tugas struktur data",
             "content_html": "<p>Haii ini adalah post percobaan untuk melengkapi tugas struktur data</p>",
-            "image": "https://firahpp.github.io/media/posts/1/IMG_20180730_230333.jpg",
+            "image": "https://firah.id/media/posts/1/IMG_20180730_230333.jpg",
             "author": {
                 "name": "Firah Putri"
             },

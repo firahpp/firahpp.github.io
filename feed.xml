@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Firah PP</title>
-    <link href="https://firahpp.github.io/feed.xml" rel="self" />
-    <link href="https://firahpp.github.io" />
-    <updated>2019-06-06T22:38:31+07:00</updated>
+    <link href="https://firah.id/feed.xml" rel="self" />
+    <link href="https://firah.id" />
+    <updated>2019-06-06T23:35:30+07:00</updated>
     <author>
         <name>Firah Putri</name>
     </author>
-    <id>https://firahpp.github.io</id>
+    <id>https://firah.id</id>
 
     <entry>
         <title>Hello World</title>
         <author>
             <name>Firah Putri</name>
         </author>
-        <link href="https://firahpp.github.io/hello-world.html"/>
-        <id>https://firahpp.github.io/hello-world.html</id>
+        <link href="https://firah.id/hello-world.html"/>
+        <id>https://firah.id/hello-world.html</id>
 
         <updated>2019-06-06T22:30:44+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://firahpp.github.io/media/posts/1/IMG_20180730_230333.jpg" alt="" />
+                        <img src="https://firah.id/media/posts/1/IMG_20180730_230333.jpg" alt="" />
                     Haii ini adalah post percobaan untuk melengkapi tugas struktur data
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://firahpp.github.io/media/posts/1/IMG_20180730_230333.jpg" alt="" />
+                    <img src="https://firah.id/media/posts/1/IMG_20180730_230333.jpg" alt="" />
                 <p>Haii ini adalah post percobaan untuk melengkapi tugas struktur data</p>
             ]]>
         </content>
