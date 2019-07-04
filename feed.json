@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Firah PP",
+    "title": "Firah&#x27;s blog",
     "description": "",
     "home_page_url": "https://firah.id",
     "feed_url": "https://firah.id/feed.json",
@@ -10,6 +10,21 @@
         "name": "Firah Putri"
     },
     "items": [
+        {
+            "id": "https://firah.id/intro.html",
+            "url": "https://firah.id/intro.html",
+            "title": "Intro",
+            "summary": "Halo! Namaku Firah Putri Pratiwi, Aku adalah Mahasiswa Teknik Informatika tingkat 1. Mempunyai blog pribadi adalah salah satu keinginanku dari dulu, dan syukurlah sekarang bisa tercapai keinginan itu. karena ini blog pribadiku, jadi aku akan nulis disini berdasarkan apa yang aku suka dan yang aku&hellip;",
+            "content_html": "<p>Halo! Namaku Firah Putri Pratiwi, Aku adalah Mahasiswa Teknik Informatika tingkat 1. </p>\n<p>Mempunyai blog pribadi adalah salah satu keinginanku dari dulu, dan syukurlah sekarang bisa tercapai keinginan itu.</p>\n<p>karena ini blog pribadiku, jadi aku akan nulis disini berdasarkan apa yang aku suka dan yang aku inginkan.</p>\n<p>Aku punya banyak cita-cita. salah satunya adalah menjadi penulis buku yang disukai banyak orang, oleh karena itu mohon bantuannya ya semua!! ^^</p>",
+            "image": "https://firah.id/media/posts/2/Pricing-header-banner.jpg",
+            "author": {
+                "name": "Firah Putri"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-07-04T06:44:46+07:00",
+            "date_modified": "2019-07-04T06:45:34+07:00"
+        },
         {
             "id": "https://firah.id/hello-world.html",
             "url": "https://firah.id/hello-world.html",

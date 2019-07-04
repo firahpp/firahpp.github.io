@@ -1,14 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Firah PP</title>
+    <title>Firah&#x27;s blog</title>
     <link href="https://firah.id/feed.xml" rel="self" />
     <link href="https://firah.id" />
-    <updated>2019-06-06T23:35:30+07:00</updated>
+    <updated>2019-07-04T07:28:37+07:00</updated>
     <author>
         <name>Firah Putri</name>
     </author>
     <id>https://firah.id</id>
 
+    <entry>
+        <title>Intro</title>
+        <author>
+            <name>Firah Putri</name>
+        </author>
+        <link href="https://firah.id/intro.html"/>
+        <id>https://firah.id/intro.html</id>
+
+        <updated>2019-07-04T06:45:34+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://firah.id/media/posts/2/Pricing-header-banner.jpg" alt="" />
+                    Halo! Namaku Firah Putri Pratiwi, Aku adalah Mahasiswa Teknik Informatika tingkat 1. Mempunyai blog pribadi adalah salah satu keinginanku dari dulu, dan syukurlah sekarang bisa tercapai keinginan itu. karena ini blog pribadiku, jadi aku akan nulis disini berdasarkan apa yang aku suka dan yang aku&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://firah.id/media/posts/2/Pricing-header-banner.jpg" alt="" />
+                <p>Halo! Namaku Firah Putri Pratiwi, Aku adalah Mahasiswa Teknik Informatika tingkat 1. </p>
+<p>Mempunyai blog pribadi adalah salah satu keinginanku dari dulu, dan syukurlah sekarang bisa tercapai keinginan itu.</p>
+<p>karena ini blog pribadiku, jadi aku akan nulis disini berdasarkan apa yang aku suka dan yang aku inginkan.</p>
+<p>Aku punya banyak cita-cita. salah satunya adalah menjadi penulis buku yang disukai banyak orang, oleh karena itu mohon bantuannya ya semua!! ^^</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Hello World</title>
         <author>
