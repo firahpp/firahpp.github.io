@@ -3,7 +3,7 @@
     <title>Firah&#x27;s blog</title>
     <link href="https://firah.id/feed.xml" rel="self" />
     <link href="https://firah.id" />
-    <updated>2019-07-04T07:28:37+07:00</updated>
+    <updated>2019-07-04T07:31:04+07:00</updated>
     <author>
         <name>Firah Putri</name>
     </author>
@@ -31,28 +31,6 @@
 <p>Mempunyai blog pribadi adalah salah satu keinginanku dari dulu, dan syukurlah sekarang bisa tercapai keinginan itu.</p>
 <p>karena ini blog pribadiku, jadi aku akan nulis disini berdasarkan apa yang aku suka dan yang aku inginkan.</p>
 <p>Aku punya banyak cita-cita. salah satunya adalah menjadi penulis buku yang disukai banyak orang, oleh karena itu mohon bantuannya ya semua!! ^^</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Hello World</title>
-        <author>
-            <name>Firah Putri</name>
-        </author>
-        <link href="https://firah.id/hello-world.html"/>
-        <id>https://firah.id/hello-world.html</id>
-
-        <updated>2019-06-06T22:30:44+07:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://firah.id/media/posts/1/IMG_20180730_230333.jpg" alt="" />
-                    Haii ini adalah post percobaan untuk melengkapi tugas struktur data
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://firah.id/media/posts/1/IMG_20180730_230333.jpg" alt="" />
-                <p>Haii ini adalah post percobaan untuk melengkapi tugas struktur data</p>
             ]]>
         </content>
     </entry>
