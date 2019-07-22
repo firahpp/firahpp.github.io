@@ -3,12 +3,119 @@
     <title>Firah&#x27;s blog</title>
     <link href="https://firah.id/feed.xml" rel="self" />
     <link href="https://firah.id" />
-    <updated>2019-07-22T14:51:05+07:00</updated>
+    <updated>2019-07-22T15:47:22+07:00</updated>
     <author>
         <name>Firah Putri</name>
     </author>
     <id>https://firah.id</id>
 
+    <entry>
+        <title>Tumpukan (Stack) pada Struktur Data</title>
+        <author>
+            <name>Firah Putri</name>
+        </author>
+        <link href="https://firah.id/tumpukan-stack-pada-struktur-data.html"/>
+        <id>https://firah.id/tumpukan-stack-pada-struktur-data.html</id>
+
+        <updated>2019-07-22T15:47:08+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://firah.id/media/posts/5/computer-screen-code-program.jpg" alt="" />
+                    Haloo... balik lagi sama aku, hari ini aku mau bahas materi Struktur Data lagi nih, coba tebak gambar dibawah sekarang aku mau bahas tentang Stack atau Tumpukan pada Struktur Data. Pengertian Stack pada Struktur Data adalah sebagai tumpukan dari benda, sekumpulan data yang seolah-olah diletakkan di atas data yang lain,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://firah.id/media/posts/5/computer-screen-code-program.jpg" alt="" />
+                <p>Haloo... balik lagi sama aku, hari ini aku mau bahas materi Struktur Data lagi nih, coba tebak gambar dibawah</p>
+<figure class="post__image post__image" ><img src="https://firah.id/media/posts/5/animasi-bergerak-surat-0008.gif" alt="Tumpukan pada Struktur Data" width="481" height="394">
+<figcaption >ilustrasi Tumpukan</figcaption>
+</figure>
+<p>sekarang aku mau bahas tentang Stack atau Tumpukan pada Struktur Data. </p>
+<p><span style="font-weight: 400;">Pengertian </span><strong>Stack</strong><span style="font-weight: 400;"> pada</span><strong> </strong><strong>Struktur Data</strong><span style="font-weight: 400;"> adalah </span><span style="font-weight: 400;">sebagai tumpukan dari benda</span><span style="font-weight: 400;">, sekumpulan data yang seolah-olah diletakkan di atas data yang lain, koleksi dari objek-objek homogen</span><span style="font-weight: 400;">, atau Suatu urutan elemen yang elemennya dapat diambil dan ditambah hanya pada posisi akhir (top) saja. </span><strong>Stack</strong><span style="font-weight: 400;"> pada</span><strong> </strong><strong>Struktur Data</strong><span style="font-weight: 400;"> dapat diilustrasikan dengan </span><span style="font-weight: 400;">dua buah kotak yang ditumpuk, kotak yang satu akan ditumpuk diatas kotak yang lainnya. Jika kemudian stack 2 kotak tadi, ditambah kotak ketiga, keempat, kelima, dan seterusnya, maka akan diperoleh sebuah stack kotak yang terdiri dari N kotak. </span><br style="font-weight: 400;"><img class="post__image" src="https://firah.id/media/posts/5/stack-ketutrare.JPG" alt="" width="280" height="209"><img class="post__image" src="https://firah.id/media/posts/5/Picture1.png" alt="" width="222" height="130"></p>
+<p style="font-weight: 400;"><strong>Stack</strong> bersifat LIFO (<em>Last In First Out</em>) artinya Benda yang terakhir masuk ke dalam stack akan menjadi yang pertama keluar dari stack </p>
+<p style="font-weight: 400;">Operasi-operasi yang biasanya tredapat pada <strong>Stack</strong> yaitu:<strong><br></strong></p>
+<ol>
+<li style="font-weight: 400;"><strong>Push</strong>: digunakan untuk menambah item pada stack pada tumpukan paling atas</li>
+<li style="font-weight: 400;"><strong>Pop</strong>: digunakan untuk mengambil item pada stack pada tumpukan paling atas</li>
+<li style="font-weight: 400;"><strong>Clear</strong>: digunakan untuk mengosongkan stack</li>
+<li style="font-weight: 400;"><strong>IsEmpty</strong>: fungsi yang digunakan untuk mengecek apakah stack sudah kosong</li>
+<li style="font-weight: 400;"><strong>IsFull</strong>: fungsi yang digunakan untuk mengecek apakah stack sudah penuh</li>
+</ol>
+<p style="font-weight: 400;">Cara mendefenisikan <strong>Stack</strong> dengan Array of Struct yaitu:</p>
+<ol>
+<li style="font-weight: 400;">Definisikan Stack dengan menggunakan struct</li>
+<li style="font-weight: 400;">Definisikan konstanta MAX_STACK untuk menyimpan maksimum isi stack</li>
+<li style="font-weight: 400;">Buatlah variabel array data sebagai implementasi stack</li>
+<li style="font-weight: 400;">Deklarasikan operasi-operasi/function di atas dan buat implemetasinya.</li>
+</ol>
+<p style="font-weight: 400;">contoh :</p>
+<p style="font-weight: 400;">//Deklarasi MAX_STACK</p>
+<p style="font-weight: 400;">                #define MAX_STACK 10   </p>
+<p style="font-weight: 400;">//Deklarasi STACK dengan struct dan array data</p>
+<p style="font-weight: 400;">                typedef struct STACK{</p>
+<p style="font-weight: 400;">                                int top;</p>
+<p style="font-weight: 400;">                                char data[10][10];                                                           </p>
+<p style="font-weight: 400;">                }; </p>
+<p style="font-weight: 400;">//Deklarasi/buat variabel dari struct</p>
+<p style="font-weight: 400;">                STACK tumpuk;</p>
+<p style="font-weight: 400;"> </p>
+<p style="font-weight: 400;">Inisialisasi <strong>Stack</strong></p>
+<p style="font-weight: 400;">Pada mulanya isi top dengan -1, karena array dalam C dimulai dari 0, yang berarti stack adalah kosong.</p>
+<p style="font-weight: 400;">Top adalah suatu variabel penanda dalam STACK yang menunjukkan elemen teratas <strong>Stack</strong> sekarang.  Top Of Stack akan selalu bergerak hingga mencapai MAX of STACK sehingga menyebabkan stack penuh.</p>
+<figure class="post__image post__image" ><img src="https://firah.id/media/posts/5/Picture2.png" alt="" width="553" height="340">
+<figcaption >Ilustrasi Stack pada saat inisialisasi</figcaption>
+</figure>
+<p style="font-weight: 400;"><strong>IsFull</strong> berfungsi untuk memeriksa apakah stack sudah penuh atau tidak. Dengan cara, memeriksa top of stack, jika sudah sama dengan MAX_STACK-1 maka full, jika belum (masih lebih kecil dari MAX_STACK-1)  maka belum full.</p>
+<figure class="post__image post__image" ><img src="https://firah.id/media/posts/5/Picture3-1.png" alt="" width="320" height="185">
+<figcaption >Ilustrasi Stack pada kondisi Full</figcaption>
+</figure>
+<p><strong>IsEmpty</strong> berfungsi untuk memeriksa apakah stack masih kosong atau tidak. Dengan cara memeriksa top of stack, jika masih -1 maka berarti stack masih kosong.</p>
+<p><img class="post__image" src="https://firah.id/media/posts/5/Picture4.png" alt="" width="362" height="165"></p>
+<p><strong>Push</strong> berfungsi untuk memasukkan elemen ke stack, selalu menjadi elemen teratas stack (yang ditunjuk oleh TOS).</p>
+<p>Tambah satu (increment)  nilai top of stack lebih dahulu setiap kali ada penambahan elemen stack.</p>
+<p>Asalkan stack masih belum penuh, isikan data baru ke stack berdasarkan indeks top of stack setelah diincrement sebelumnya.<br><img class="post__image" src="https://firah.id/media/posts/5/Picture5.png" alt="" width="437" height="352"><br><br></p>
+<p><strong>Pop</strong> berfungsi untuk mengambil elemen teratas (data yang ditunjuk oleh TOS) dari stack.</p>
+<p>Ambil dahulu nilai elemen teratas stack dengan mengakses top of stack, tampilkan nilai yang akan dipop, baru dilakukan decrement nilai top of stack sehingga jumlah elemen stack berkurang.</p>
+<p> <img class="post__image" src="https://firah.id/media/posts/5/pop.png" alt="" width="475" height="424"></p>
+<p><strong>Print </strong>berfungsi untuk menampilkan semua elemen-elemen stack dengan cara looping semua nilai array secara terbalik, karena kita harus mengakses dari indeks array tertinggi terlebih dahulu baru ke indeks yang kecil.</p>
+<p><img class="post__image" src="https://firah.id/media/posts/5/print.png" alt="" width="468" height="290"><img class="post__image" src="https://firah.id/media/posts/5/print2.png" alt="" width="466" height="161"></p>
+<p><strong>Operasi Push</strong></p>
+<p>void Push (NOD **T, char item)</p>
+<p>                {</p>
+<p>                                NOD *n;</p>
+<p>                                n=NodBaru (item);</p>
+<p>                                n-&gt;next=*T;</p>
+<p>                                *T=n;</p>
+<p>                }</p>
+<p> </p>
+<p><strong>Operasi Pop</strong></p>
+<p>char Pop (NOD **T)</p>
+<p>                {</p>
+<p>                                NOD *n; char item;</p>
+<p>                                if (!StackKosong(*T)) {</p>
+<p>                                                P=*T;</p>
+<p>                                                *T=(*T)-&gt;next;</p>
+<p>                                                item=P-&gt;data;</p>
+<p>                                                free(P);</p>
+<p>                                }</p>
+<p>                                return item;</p>
+<p>                }</p>
+<p> </p>
+<p><strong>create</strong> berfungsi untuk membuat sebuah stack baru yang masih kosong.</p>
+<p> </p>
+<p>spesifikasi:</p>
+<p>tujuan : mendefinisikan stack yang kosong</p>
+<p>input : stack</p>
+<p>syarat awal : tidak ada</p>
+<p>output stack : - (kosong)</p>
+<p>syarat akhir : stack dalam keadaan kosong</p>
+<p><span style="font-weight: 400;"><br><br><br></span></p>
+<p>sekian pembahasan kali ini, terimakasih sudah mampir ^.^</p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Antrian (Queue) pada Struktur Data</title>
         <author>
@@ -17,7 +124,7 @@
         <link href="https://firah.id/antrian-pada-strukturdata-byfirah.html"/>
         <id>https://firah.id/antrian-pada-strukturdata-byfirah.html</id>
 
-        <updated>2019-07-22T14:50:55+07:00</updated>
+        <updated>2019-07-22T14:57:11+07:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://firah.id/media/posts/4/computer-screen-code-program.jpg" alt="" />
