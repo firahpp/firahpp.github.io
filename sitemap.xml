@@ -5,6 +5,10 @@
 <loc>https://firah.id/</loc>
 </url>
 <url>
+<loc>https://firah.id/contoh.html</loc>
+<lastmod>2019-07-22T14:47:52+07:00</lastmod>
+</url>
+<url>
 <loc>https://firah.id/hello-world.html</loc>
 <lastmod>2019-07-04T07:30:51+07:00</lastmod>
 <image:image>
@@ -18,6 +22,22 @@
 <image:image>
 <image:loc>https://firah.id/media\posts\2/Pricing-header-banner.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://firah.id/struktur-data.html</loc>
+<lastmod>2019-07-22T14:47:33+07:00</lastmod>
+<image:image>
+<image:loc>https://firah.id/media\posts\4/computer-screen-code-program.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://firah.id/media\posts\4/pemodelan-pada-sistem-antrian.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://firah.id/media\posts\4/img11.jpg</image:loc>
+<image:title><![CDATA[Tampilan Program]]></image:title>
 </image:image>
 </url>
 </urlset>
